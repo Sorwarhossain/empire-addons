@@ -1,0 +1,61 @@
+/* Styles for addons */
+.webinar-start-wrap h3 {
+  color: #212529;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 0 10px;
+}
+.empire_timer {
+  display: flex;
+  justify-content: center;
+}
+.empire_timer div {
+  border: 2px solid #d2d2d2;
+  padding: 3px 15px 19px;
+  font-size: 29px;
+  margin: 8px;
+}
+.empire_timer .jst-clearDiv {
+  display: none;
+}
+.empire_timer .jst-hours,
+.empire_timer .jst-minutes,
+.empire_timer .jst-seconds {
+  position: relative;
+}
+.empire_timer .jst-hours:before {
+  content: "HOURS";
+  position: absolute;
+  font-size: 10px;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.empire_timer .jst-hours:after,
+.empire_timer .jst-minutes:after {
+  content: ":";
+  position: absolute;
+  font-size: 36px;
+  right: -13px;
+  top: 0;
+  bottom: 0;
+}
+.empire_timer .jst-minutes:before {
+  content: "MINUTES";
+  position: absolute;
+  font-size: 10px;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.empire_timer .jst-seconds:before {
+  content: "SECONDS";
+  position: absolute;
+  font-size: 10px;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
